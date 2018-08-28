@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	
 }
 ol, ul {
 	list-style: none;
@@ -53,8 +54,14 @@ table {
 }
 
 html, body {
-    height: 100%;
+
+    height: 100%
     font-family: 'Titillium Web', sans-serif;
+}
+
+.main-container {
+	width: 948px;
+	/* height: 862px; */
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +71,38 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+title {
+	text-align: right;
+}
+
+nav {
+	border: solid orange;
+}
+
+header {
+ border:solid blue;
+}
+
+
+section {
+	/* BORDER to see */
+	border:solid black;
+}
+
+.middle-img {
+	border:solid green;
+
+}
+
+.services {
+	border:solid red;	
+}
+
+.contact {
+	border:solid teal;
+}
+
+footer {
+	border: solid yellow;
+}
