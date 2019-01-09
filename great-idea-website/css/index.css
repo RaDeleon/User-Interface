@@ -70,7 +70,15 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
+
+
 /* Your code starts here! */
+
+
+
+
+
 
 title {
 	text-align: right;
@@ -78,12 +86,16 @@ title {
 
 nav {
 	border: solid orange;
+	text-align: center;
 }
 
 header {
  border:solid blue;
 }
 
+.header-img {
+	/* text-align: right; */
+}
 
 section {
 	/* BORDER to see */
@@ -92,7 +104,16 @@ section {
 
 .middle-img {
 	border:solid green;
+	display: inline;
 
+}
+
+.features-services {
+	text-align: left;
+}
+
+.about-services {
+	text-align: right;
 }
 
 .services {
